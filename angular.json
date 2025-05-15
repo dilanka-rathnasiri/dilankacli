@@ -34,7 +34,8 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "https://dilanka-rathnasiri.github.io/dilankacli/"
           },
           "configurations": {
             "production": {
@@ -95,6 +96,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
